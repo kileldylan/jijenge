@@ -1,0 +1,82 @@
+name: jijenge
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_svg: ^2.0.10+1
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.3
+  http: ^1.2.2
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter_18pt-Bold.ttf
+          weight: 700
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto_Condensed-Medium.ttf
+          weight: 500
+  
+  assets:
+    - assets/images/Jijenge_logo.jpeg
+    - assets/images/androidbox.jpeg
+    - assets/images/starlink.jpeg
+    - assets/images/Opporeno12.jpeg
+    - assets/images/Oppoa16.jpeg
+    - assets/images/Oppoa3.jpeg
+    - assets/images/Oppo.jpeg
+    - assets/images/glaze40.jpeg
+    - assets/images/car.jpeg
+    - assets/images/tyres.jpeg
+    - assets/images/wheelbarrow.jpeg
+    - assets/images/elegant_dresses.jpeg
+    - assets/images/stylish_shoes.jpeg
+    - assets/images/luxury_watch.jpeg
+    - assets/images/packaging.jpeg
+    - assets/images/moving.jpeg
+    - assets/images/software_engineer.jpeg
+    - assets/images/graphic_designer.jpeg
+    - assets/images/marketing_manager.jpeg
+    - assets/images/singleroom.jpeg
+    - assets/images/bedsitter.jpeg
+    - assets/images/1bedroom.jpeg
+    - assets/images/2bedroom.jpeg
+    - assets/images/3bedroom.jpeg
+    - assets/images/studio.jpeg
+    - assets/images/DSQ.jpeg
+    - assets/images/quarter_acre.jpeg
+    - assets/images/1acre.jpeg
+    - assets/images/eigth_acre.jpeg
+    - assets/images/bulldozer.jpeg
+    - assets/images/excavator.jpeg
+    - assets/images/crane.jpeg
+    - assets/images/half_acre.jpeg
+    - assets/images/software_engineer.jpeg
+    - assets/images/graphic_designer.jpeg
+    - assets/images/marketing_manager.jpeg
+    - assets/images/cleaning_services.jpg
+    - assets/images/plumbing_services.jpg
+    - assets/images/electrical_services.jpeg
+    - assets/images/profile.jpg
+
